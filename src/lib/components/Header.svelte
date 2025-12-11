@@ -5,16 +5,8 @@
 
 <header class="fixed top-0 left-0 w-full z-50 px-6 py-5 transition-colors duration-300 {theme === 'dark' && !isMenuOpen ? 'text-white' : 'text-black bg-white/90 backdrop-blur-sm'}">
     <div class="flex justify-between items-center w-full max-w-[1400px] mx-auto relative">
-        <!-- Left Navigation -->
-        <nav class="hidden md:flex gap-8 text-[11px] font-medium tracking-wide uppercase">
-            <a href="/" class="hover:opacity-60 transition-opacity">Platform</a>
-            <a href="/" class="hover:opacity-60 transition-opacity">Solutions</a>
-            <a href="/" class="hover:opacity-60 transition-opacity">Customers</a>
-            <a href="/" class="hover:opacity-60 transition-opacity">Company</a>
-        </nav>
-
-        <!-- Center Logo -->
-        <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
+        <!-- Left Logo -->
+        <div class="z-20 pl-5">
             <a href="/" class="flex items-center">
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-7 h-7">
                     <path
@@ -24,12 +16,21 @@
                         fill="currentColor"
                     />
                 </svg>
-                <span class="ml-2 text-xl font-bold tracking-tight">sensmore</span>
             </a>
         </div>
 
-        <!-- Right Placeholder -->
-        <div class="w-[200px] hidden md:block"></div>
+        <!-- Right Navigation -->
+        <div class="hidden md:flex items-center gap-8 z-20 pr-6">
+            <nav class="flex gap-8 text-[11px] font-medium tracking-wide uppercase">
+                <a href="/" class="hover:opacity-60 transition-opacity">Platform</a>
+                <a href="/" class="hover:opacity-60 transition-opacity">Solutions</a>
+                <a href="/" class="hover:opacity-60 transition-opacity">Customers</a>
+                <a href="/" class="hover:opacity-60 transition-opacity">Company</a>
+            </nav>
+            <button class="px-6 py-2 bg-black text-white rounded-none hover:bg-gray-800 transition-colors text-sm font-medium">
+                Book Demo
+            </button>
+        </div>
         
         <!-- Mobile Menu Button -->
         <button class="md:hidden ml-auto z-20 relative" on:click={() => isMenuOpen = !isMenuOpen}>
@@ -48,12 +49,15 @@
     <!-- Mobile Menu Overlay -->
     {#if isMenuOpen}
         <div class="fixed inset-0 bg-white z-10 flex flex-col items-center justify-center pt-20 pb-10 px-6 md:hidden">
-            <nav class="flex flex-col items-center gap-8 text-lg font-medium tracking-wide uppercase">
+            <nav class="flex flex-col items-center gap-8 text-lg font-medium tracking-wide uppercase mb-8">
                 <a href="/" class="hover:opacity-60 transition-opacity" on:click={() => isMenuOpen = false}>Platform</a>
                 <a href="/" class="hover:opacity-60 transition-opacity" on:click={() => isMenuOpen = false}>Solutions</a>
                 <a href="/" class="hover:opacity-60 transition-opacity" on:click={() => isMenuOpen = false}>Customers</a>
                 <a href="/" class="hover:opacity-60 transition-opacity" on:click={() => isMenuOpen = false}>Company</a>
             </nav>
+            <button class="px-6 py-2 bg-black text-white rounded-none hover:bg-gray-800 transition-colors text-sm font-medium" on:click={() => isMenuOpen = false}>
+                Book Demo
+            </button>
         </div>
     {/if}
 </header>

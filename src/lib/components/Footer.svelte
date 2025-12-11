@@ -26,7 +26,7 @@
             <!-- Col 4 -->
             <div class="flex flex-col gap-1">
                 <span class="text-gray-400 mb-1">Connect</span>
-                <a href="https://www.linkedin.com/company/sensmore" target="_blank" rel="noopener" class="hover:opacity-60 transition-opacity">LinkedIn</a>
+                <a href="https://www.linkedin.com/company/forge" target="_blank" rel="noopener" class="hover:opacity-60 transition-opacity">LinkedIn</a>
                 <a href="/" class="hover:opacity-60 transition-opacity">Contact</a>
             </div>
 

@@ -7,46 +7,12 @@
 
 <main class="pt-[72px]">
 	<!-- Hero Section -->
-	<section class="relative w-full h-[85vh] overflow-hidden">
-		<img 
-			src="/generated/image-large-mining-loader-operating-in-an-open-1765438531657-0.webp" 
-			alt="Mining loader in operation" 
-			class="w-full h-full object-cover"
-		/>
-		<div class="absolute inset-0 bg-black/30 flex items-center justify-center">
-			<h1 class="text-white text-5xl md:text-7xl font-normal tracking-tight text-center px-6">Intelligent Autonomous Systems</h1>
-		</div>
-	</section>
-
-	<!-- Intro Text Section -->
-	<section class="px-6 py-24 md:py-32 max-w-[1400px] mx-auto">
-		<p class="text-lg mb-6">Vision Language Action Models for Heavy Machinery</p>
-		<h2 class="text-3xl md:text-[40px] leading-[1.15] font-normal max-w-4xl tracking-tight">
-			Sensmore transforms the world's largest off-highway machinery into intelligent autonomous systems through end-to-end learning and embodied AI.
-		</h2>
-		<h2 class="text-3xl md:text-[40px] leading-[1.15] font-normal max-w-4xl mt-8 tracking-tight">
-			Starting with mining loaders, we're capturing the $180B off-highway market by making machines that think, adapt, and perform with human-like intelligence.
-		</h2>
-	</section>
-
-	<!-- CTA Section -->
-	<section class="px-6 pb-24 max-w-[1400px] mx-auto">
-		<div class="bg-[#1a1a1a] text-white p-12 md:p-16 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
-			<h3 class="text-2xl md:text-3xl font-normal max-w-md leading-tight">Transform your site with autonomous intelligence</h3>
-			<button class="group flex items-center gap-2 px-6 py-2 border border-white/30 rounded-full hover:bg-white hover:text-black transition-colors text-sm">
-				Request Demo
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1 transition-transform">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-				</svg>
-			</button>
-		</div>
-	</section>
 
 	<!-- Site OS Platform -->
-	<section class="px-6 py-12 max-w-[1400px] mx-auto border-t border-gray-200">
+	<section class="px-6 py-12 max-w-[1400px] mx-auto mt-16 border-gray-200">
 		<div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-16 pt-4">
 			<div class="md:col-span-4">
-				<h3 class="text-3xl md:text-4xl font-normal tracking-tight">Site OS</h3>
+				<h3 class="text-3xl md:text-4xl font-normal tracking-tight">Forge</h3>
 			</div>
 			<div class="md:col-span-8 md:col-start-8">
 				<p class="text-sm md:text-base leading-relaxed max-w-lg">
@@ -62,6 +28,20 @@
 			/>
 		</div>
 	</section>
+
+	<!-- Intro Text Section -->
+	<section class="px-6 py-24 md:py-32 max-w-[1400px] mx-auto">
+		<p class="text-lg mb-6">Vision Language Action Models for Heavy Machinery</p>
+		<h2 class="text-3xl md:text-[40px] leading-[1.15] font-normal max-w-4xl tracking-tight">
+			Forge transforms the world's largest off-highway machinery into intelligent autonomous systems through end-to-end learning and embodied AI.
+		</h2>
+		<h2 class="text-3xl md:text-[40px] leading-[1.15] font-normal max-w-4xl mt-8 tracking-tight">
+			Starting with mining loaders, we're capturing the $180B off-highway market by making machines that think, adapt, and perform with human-like intelligence.
+		</h2>
+	</section>
+
+
+
 
 	<!-- Safety First -->
 	<section class="px-6 py-32 max-w-[1400px] mx-auto">
@@ -123,7 +103,7 @@
 			<!-- Description -->
 			<div>
 				<p class="text-sm md:text-base leading-relaxed max-w-md">
-					Our customers see measurable improvements from day one. CEMEX and Lhoist have equipped entire sites with Sensmore technology, achieving significant reductions in downtime and preventing costly accidents.
+					Our customers see measurable improvements from day one. CEMEX and Lhoist have equipped entire sites with Forge technology, achieving significant reductions in downtime and preventing costly accidents.
 				</p>
 			</div>
 
@@ -179,7 +159,7 @@
 			<!-- CEMEX Testimonial -->
 			<div class="border-l-2 border-gray-900 pl-8">
 				<p class="text-lg md:text-xl leading-relaxed mb-6 italic">
-					"We've had a multi-year relationship with Sensmore. Our entire site is now equipped with their technology, and the impact on safety and operations has been remarkable."
+					"We've had a multi-year relationship with Forge. Our entire site is now equipped with their technology, and the impact on safety and operations has been remarkable."
 				</p>
 				<div class="text-sm">
 					<p class="font-medium">Thomas Weber</p>
